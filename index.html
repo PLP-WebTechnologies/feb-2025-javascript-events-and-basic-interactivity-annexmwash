@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Interactive Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎉 Welcome to JS Playground</h1>
+
+  <!-- 1. Buttons and Events -->
+  <button id="colorBtn">Change Background Color</button>
+  <button id="textBtn">Change This Text</button>
+  <p id="textTarget">Watch this text change!</p>
+
+  <!-- 2. Hover Event -->
+  <div id="hoverBox">Hover over me!</div>
+
+  <!-- 3. Keypress Event -->
+  <p>Type in the box below:</p>
+  <input type="text" id="keypressInput" />
+  <p id="keyFeedback"></p>
+
+  <!-- 4. Double Click Secret -->
+  <button id="secretBtn">Double-click me</button>
+  <p id="secretMessage"></p>
+
+  <!-- 5. Simple Tabs -->
+  <div class="tabs">
+    <button class="tabBtn" data-tab="1">Tab 1</button>
+    <button class="tabBtn" data-tab="2">Tab 2</button>
+  </div>
+  <div class="tabContent" id="tab1">This is Tab 1 content.</div>
+  <div class="tabContent" id="tab2" style="display: none;">This is Tab 2 content.</div>
+
+  <!-- 6. Form -->
+  <h2>Sign Up</h2>
+  <form id="signupForm">
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+    <p id="passwordFeedback"></p>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

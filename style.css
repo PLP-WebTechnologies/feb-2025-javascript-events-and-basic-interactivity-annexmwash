@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+button {
+  margin: 10px 0;
+  padding: 8px 12px;
+}
+
+#hoverBox {
+  padding: 10px;
+  border: 2px dashed gray;
+  width: 200px;
+  margin: 10px 0;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.tabBtn {
+  margin-right: 10px;
+}
+
+.tabContent {
+  padding: 10px;
+  background-color: #746318;
+  margin-top: 5px;
+}
+
+input {
+  display: block;
+  margin: 5px 0;
+  padding: 8px;
+  width: 250px;
+}
